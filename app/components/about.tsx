@@ -281,13 +281,13 @@ export default function AboutMe() {
             <Section title="EDUCATION">
               <div className="space-y-4 md:space-y-6 text-sm">
                 <EduRow
-                  year="2021–2025"
-                  title="B.Des in Interior & Furniture Design"
+                  year="2023–2025"
+                  title="Instituto Design Innovation"
                   subtitle="Unitedworld Institute of Design"
                 />
                 <EduRow
-                  year="2014–2021"
-                  title="Shanti Asiatic School"
+                  year="2020–2022"
+                  title="Bonfire Institute of Design"
                   subtitle="Higher Secondary"
                 />
               </div>
