@@ -35,11 +35,11 @@ export default function Home() {
     "final",
 
     // Northface flow
-    "northface",
-    "DarkConceptPage",
-    "DarkSectionPage",
-    "DarkGalleryPage",
-    "DarkFinalHeroPage",
+    // "northface",
+    // "DarkConceptPage",
+    // "DarkSectionPage",
+    // "DarkGalleryPage",
+    // "DarkFinalHeroPage",
 
     //Technical
     "technical",
@@ -109,7 +109,7 @@ export default function Home() {
         <FinalHeroPage active={active} />
       </section>
       {/* 🔹 NORTHFACE FLOW */}
-      <section id="northface" className="snap-start min-h-screen">
+      {/* <section id="northface" className="snap-start min-h-screen">
         <Northface active={active} />
       </section>
       <section id="DarkConceptPage" className="snap-start min-h-screen">
@@ -123,7 +123,7 @@ export default function Home() {
       </section>
       <section id="DarkFinalHeroPage" className="snap-start min-h-screen">
         <DarkFinalHeroPage active={active} />
-      </section>
+      </section> */}
       <section id="technical" className="snap-start min-h-screen">
         <TechnicalDrawings active={active} />
       </section>
