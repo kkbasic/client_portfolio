@@ -63,7 +63,7 @@ export default function ShoonyaHouse({ active }: { active: string }) {
             {/* SMALL IMAGE */}
             <div className="mt-10 md:mt-16 flex justify-center md:justify-start">
               <Image
-                src="/b.png"
+                src="/bed1.jpg"
                 alt="Concept"
                 width={160}
                 height={160}
