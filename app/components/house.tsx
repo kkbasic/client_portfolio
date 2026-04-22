@@ -34,7 +34,7 @@ export default function ShoonyaHouse({ active }: { active: string }) {
               text-center md:text-left
             "
             >
-              SHOONYA <br /> HOUSE
+              HOUSE
             </h1>
 
             {/* DETAILS */}
