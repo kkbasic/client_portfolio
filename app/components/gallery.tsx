@@ -6,10 +6,10 @@ export default function GalleryPage({ active }: { active: string }) {
   const sections = ["shoonya", "concept", "section", "gallery", "final"];
 
   const images = [
-    { src: "/bed1.jpg", label: "BEDROOM 2" },
-    { src: "/b5.png", label: "BEDROOM 3" },
-    { src: "/b6.png", label: "STAIRCASE" },
-    { src: "/b7.png", label: "LIBRARY" },
+    { src: "/bed1.jpg", label: "BEDROOM 1" },
+    { src: "/b5.png", label: "BEDROOM 2" },
+    { src: "/b6.png", label: "BEDROOM 3" },
+    { src: "/b7.png", label: "BEDROOM 4" },
   ];
 
   return (
