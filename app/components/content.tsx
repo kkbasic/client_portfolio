@@ -89,7 +89,7 @@ const projects = [
     id: "01",
     title: "House",
     subtitle: "Residential",
-    img: "/bed1.png",
+    img: "/bed1.jpg",
   },
   {
     id: "02",
