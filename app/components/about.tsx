@@ -489,7 +489,14 @@ export default function AboutMe() {
               <Skill name="V-Ray" level={3} />
               
             </Section>
-
+            {/* LANGUAGES */}
+            <Section title="LANGUAGES">
+              <div className="flex justify-between text-sm text-gray-700">
+                <span>English</span>
+                <span>Telugu</span>
+                <span>Hindi</span>
+              </div>
+            </Section>
             {/* ANALOGUE */}
             <Section title="ANALOGUE SKILLS">
               <div className="grid grid-cols-2 gap-2 text-sm text-gray-700">
@@ -516,15 +523,28 @@ export default function AboutMe() {
               </div>
             </Section>
 
-            {/* LANGUAGES */}
-            <Section title="LANGUAGES">
-              <div className="flex justify-between text-sm text-gray-700">
-                <span>English</span>
-                <span>Telugu</span>
-                <span>Hindi</span>
+
+            <Section title="CERTIFICATIONS">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="relative w-full h-40 md:h-28 border border-gray-200 rounded-md overflow-hidden">
+                  <Image
+                    src="/cert1.png"
+                    alt="Certificate 1"
+                    fill
+                    className="object-cover hover:scale-105 transition duration-300"
+                  />
+                </div>
+
+                <div className="relative w-full h-40 md:h-28 border border-gray-200 rounded-md overflow-hidden">
+                  <Image
+                    src="/cert2.png"
+                    alt="Certificate 2"
+                    fill
+                    className="object-cover hover:scale-105 transition duration-300"
+                  />
+                </div>
               </div>
             </Section>
-
             {/* CONTACTS */}
             <Section title="CONTACTS">
               <div className="flex flex-col gap-4 text-sm text-gray-700">
