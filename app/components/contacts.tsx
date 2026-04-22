@@ -130,11 +130,11 @@ export default function CONTACTS() {
         <div className="col-start-3 row-start-3 flex flex-col gap-3 text-base md:text-lg text-gray-700 pl-40">
           <div className="flex items-center gap-4">
             <Mail size={16} />
-            <span>Vaishnavikabra@gmail.com</span>
+            <span>Vaishnavikabra98@gmail.com</span>
           </div>
           <div className="flex items-center gap-4">
             <Phone size={16} />
-            <span>9512512385</span>
+            <span>7207877056</span>
           </div>
         </div>
 
