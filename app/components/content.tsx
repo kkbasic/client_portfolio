@@ -87,32 +87,32 @@ import Image from "next/image";
 const projects = [
   {
     id: "01",
-    title: "Shoonya House",
+    title: "House",
     subtitle: "Residential",
-    img: "/b.png",
+    img: "/bed1.png",
   },
   {
     id: "02",
-    title: "Northface x GoPro",
-    subtitle: "Retail Concept",
-    img: "/a.png",
+    title: "Concept",
+    subtitle: "House Concept",
+    img: "/b5.png",
   },
   {
     id: "03",
-    title: "Snow Ski Cabin",
-    subtitle: "Iceland",
+    title: "Section",
+    subtitle: "Details",
     img: "/c.png",
   },
   {
     id: "04",
-    title: "Tim Burton Chair",
-    subtitle: "Furniture Study",
+    title: "Gallery",
+    subtitle: "Gallery Section",
     img: "/d.png",
   },
   {
     id: "05",
     title: "Technical Drawings",
-    subtitle: "Cabinetry Detail",
+    subtitle: "Layout Detail",
     img: "/e.png",
   },
 ];
