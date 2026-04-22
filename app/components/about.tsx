@@ -485,7 +485,9 @@ export default function AboutMe() {
             <Section title="SOFTWARE SKILLS">
               <Skill name="AutoCAD" level={4} />
               <Skill name="SketchUp" level={4} />
+              <Skill name="3ds max" level={4} />
               <Skill name="V-Ray" level={3} />
+              
             </Section>
 
             {/* ANALOGUE */}
