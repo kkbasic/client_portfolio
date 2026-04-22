@@ -75,7 +75,7 @@ export default function ShoonyaHouse({ active }: { active: string }) {
           {/* RIGHT IMAGE */}
           <div className="flex justify-center md:justify-end pt-4 md:pt-10">
             <Image
-              src="/house.png"
+              src="/bed1.jpg"
               alt="Render"
               width={1200}
               height={600}
