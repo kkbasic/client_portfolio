@@ -8,8 +8,8 @@ export default function GalleryPage({ active }: { active: string }) {
   const images = [
     { src: "/bed1.jpg", label: "BEDROOM 2" },
     { src: "/b5.png", label: "BEDROOM 3" },
-    { src: "/staircase.png", label: "STAIRCASE" },
-    { src: "/livingroom.png", label: "LIBRARY" },
+    { src: "/b6.png", label: "STAIRCASE" },
+    { src: "/b7.png", label: "LIBRARY" },
   ];
 
   return (
