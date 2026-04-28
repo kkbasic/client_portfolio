@@ -163,7 +163,7 @@ import DarkGalleryPage from "./components/d_gallery";
 import DarkFinalHeroPage from "./components/d_hero";
 import TechnicalDrawings from "./components/drawing";
 import TechnicalPage from "./components/interior";
-import DrawingSection from "./components/Randomdrawings";
+import DrawingSection from "./components/randomdrawings";
 import CONTACTS from "./components/contacts";
 
 export default function Home() {
