@@ -19,6 +19,7 @@ import DarkGalleryPage from "./components/d_gallery";
 import DarkFinalHeroPage from "./components/d_hero";
 import TechnicalDrawings from "./components/drawing";
 import TechnicalPage from "./components/interior";
+import DrawingSection from "./components/Randomdrawings";
 import CONTACTS from "./components/contacts";
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
     //Technical
     "technical",
     "techConcept",
+    "random",
   ];
 
   const [active, setActive] = useState("portfolio");
@@ -129,6 +131,9 @@ export default function Home() {
       </section>
       <section id="techConcept" className="snap-start min-h-screen">
         <TechnicalPage active={active} />
+      </section>
+          <section id="random" className="snap-start min-h-screen">
+        <DrawingSection active={active} />
       </section>
       <section className="snap-start min-h-screen">
         <CONTACTS />
