@@ -68,7 +68,7 @@ export default function FinalHeroPage({ active }: { active: string }) {
           ))}
         </div>
 
-        <div>09</div>
+        <div>08</div>
       </div>
     </div>
   );
