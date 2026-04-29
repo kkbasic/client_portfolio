@@ -210,7 +210,7 @@ export default function TechnicalPage({ active }: { active: string }) {
             ))}
           </div>
 
-          <div>27</div>
+          <div>10</div>
         </div>
       </div>
     </motion.div>
