@@ -73,7 +73,7 @@ export default function ShoonyaHouse({ active }: { active: string }) {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="flex justify-center md:justify-end pt-4 md:pt-10">
+          {/* <div className="flex justify-center md:justify-end pt-4 md:pt-10">
             <Image
               src="/bed1.jpg"
               alt="Render"
@@ -84,6 +84,15 @@ export default function ShoonyaHouse({ active }: { active: string }) {
                 max-h-[300px] md:max-h-none 
                 object-cover
               "
+            />
+          </div> */}
+          <div className="relative w-full h-[300px] md:h-auto overflow-hidden">
+            <Image
+              src="/bed1.jpg"
+              alt="Render"
+              fill
+              className="object-cover block"
+              sizes="100vw"
             />
           </div>
         </div>
