@@ -72,7 +72,7 @@ export default function GalleryPage({ active }: { active: string }) {
           ))}
         </div>
 
-        <div>08</div>
+        <div>07</div>
       </div>
     </div>
   );
