@@ -83,7 +83,7 @@ export default function TechnicalPage({ active }: { active: string }) {
         </div>
 
         {/* RIGHT SIDEBAR */}
-        <div className="w-[20%] bg-[#2f2f2f] text-white flex items-center justify-center">
+        <div className="w-[20%] min-h-screen bg-[#2f2f2f] text-white flex items-center justify-center isolate">
           <div className="w-[80%] border border-white/20">
             <div className="text-center py-4 border-b-2 border-white/30">
               <h2 className="text-xs tracking-[0.3em]">NOMENCLATURE</h2>
