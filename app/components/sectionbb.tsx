@@ -97,7 +97,7 @@ export default function SectionPage({ active }: { active: string }) {
           ))}
         </div>
 
-        <div>07</div>
+        <div>06</div>
       </div>
     </div>
   );
