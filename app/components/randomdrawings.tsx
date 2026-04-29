@@ -65,7 +65,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function DrawingSection() {
-  const drawings = ["/i1.png", "/i2.png", "/i1.png", "/i2.png"];
+  const drawings = ["/i3.png", "/i2.png", "/i1.png", "/i2.png"];
 
   return (
     <motion.div
