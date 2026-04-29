@@ -173,11 +173,13 @@ export default function CONTACTS() {
         <div className="flex flex-col gap-4 text-sm text-gray-700 items-center">
           <div className="flex items-center gap-3">
             <Mail size={14} />
-            <span>Vaishnavikabra@gmail.com</span>
+             
+                  
+            <span>Vaishnavikabra98@gmail.com </span>
           </div>
           <div className="flex items-center gap-3">
             <Phone size={14} />
-            <span>9512512385</span>
+            <span>7207877056</span>
           </div>
         </div>
 
