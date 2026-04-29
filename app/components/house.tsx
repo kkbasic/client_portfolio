@@ -61,7 +61,7 @@ export default function ShoonyaHouse({ active }: { active: string }) {
             </div>
 
             {/* SMALL IMAGE */}
-            <div className="mt-10 md:mt-16 flex justify-center md:justify-start">
+            {/* <div className="mt-10 md:mt-16 flex justify-center md:justify-start">
               <Image
                 src="/bed1.jpg"
                 alt="Concept"
@@ -69,6 +69,17 @@ export default function ShoonyaHouse({ active }: { active: string }) {
                 height={160}
                 className="object-contain"
               />
+            </div> */}
+            <div className="mt-10 md:mt-16 flex justify-center md:justify-start">
+              <div className="relative w-[160px] h-[160px] overflow-hidden">
+                <Image
+                  src="/bed1.jpg"
+                  alt="Concept"
+                  fill
+                  sizes="160px"
+                  className="object-contain block"
+                />
+              </div>
             </div>
           </div>
 
