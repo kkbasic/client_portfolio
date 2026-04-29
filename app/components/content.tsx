@@ -95,7 +95,7 @@ const projects = [
     id: "02",
     title: "Concept",
     subtitle: "House Concept",
-    img: "/b5.png",
+    img: "/4.png",
   },
   {
     id: "03",
@@ -113,7 +113,7 @@ const projects = [
     id: "05",
     title: "Technical Drawings",
     subtitle: "Layout Detail",
-    img: "/e.png",
+    img: "/drawing.png",
   },
 ];
 
