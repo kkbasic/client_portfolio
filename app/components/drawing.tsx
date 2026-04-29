@@ -220,7 +220,7 @@ export default function TechnicalDrawings({ active }: { active: string }) {
             ))}
           </div>
 
-          <div>25</div>
+          <div>9</div>
         </div>
       </div>
     </motion.div>
