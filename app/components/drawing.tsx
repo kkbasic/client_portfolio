@@ -170,17 +170,13 @@ export default function TechnicalDrawings({ active }: { active: string }) {
           </div>
 
           {/* ================= RIGHT IMAGE ================= */}
-          <div className="flex justify-center md:justify-end pt-4 md:pt-10">
+          <div className="relative w-full h-[300px] md:h-auto overflow-hidden">
             <Image
               src="/drawing.png"
               alt="Technical drawing"
-              width={1200}
-              height={600}
-              className="
-                w-full 
-                max-h-[300px] md:max-h-none 
-                object-cover
-              "
+              fill
+              sizes="100vw"
+              className="object-cover block"
             />
           </div>
         </div>
