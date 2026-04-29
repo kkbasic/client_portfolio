@@ -170,7 +170,7 @@ export default function TechnicalDrawings({ active }: { active: string }) {
             <div className="mt-10 md:mt-16 flex justify-center md:justify-start">
               <div className="relative w-[160px] h-[160px] overflow-hidden">
                 <Image
-                  src="/a.png"
+                  src="/drawing.png"
                   alt="Concept sketch"
                   fill
                   sizes="160px"
