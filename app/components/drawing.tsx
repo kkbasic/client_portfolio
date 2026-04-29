@@ -158,7 +158,7 @@ export default function TechnicalDrawings({ active }: { active: string }) {
             </div>
 
             {/* SMALL IMAGE */}
-            <div className="mt-10 md:mt-16 flex justify-center md:justify-start">
+            {/* <div className="mt-10 md:mt-16 flex justify-center md:justify-start">
               <Image
                 src="/a.png"
                 alt="Concept sketch"
@@ -166,6 +166,17 @@ export default function TechnicalDrawings({ active }: { active: string }) {
                 height={160}
                 className="object-contain"
               />
+            </div> */}
+            <div className="mt-10 md:mt-16 flex justify-center md:justify-start">
+              <div className="relative w-[160px] h-[160px] overflow-hidden">
+                <Image
+                  src="/a.png"
+                  alt="Concept sketch"
+                  fill
+                  sizes="160px"
+                  className="object-contain block"
+                />
+              </div>
             </div>
           </div>
 
